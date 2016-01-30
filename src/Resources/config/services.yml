@@ -1,0 +1,3 @@
+services:
+    endroid_pusher.server:
+        class: Pusher
