@@ -27,7 +27,7 @@ class EndroidPusherExtension extends Extension
         $loader = new YamlFileLoader($container, new FileLocator(__DIR__.'/../Resources/config'));
         $loader->load('services.yml');
 
-        $serviceDefinition = $container->getDefinition('endroid.pusher.server');
+        $serviceDefinition = $container->getDefinition('endroid_pusher.pusher');
         $serviceDefinition->setArguments(array($config['key'], $config['secret'], $config['app_id'], array('encrypted' => true)));
     }
 }

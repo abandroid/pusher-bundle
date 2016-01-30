@@ -9,7 +9,7 @@ Pusher Bundle
 [![Total Downloads](http://img.shields.io/packagist/dt/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
 [![License](http://img.shields.io/packagist/l/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
 
-This bundle enables you to quickly implement real-time features provided by [`Pusher`](https://pusher.com/).
+This bundle enables easy integration of real-time features provided by [`Pusher`](https://pusher.com/).
 
 [![knpbundles.com](http://knpbundles.com/endroid/EndroidPusherBundle/badge-short)](http://knpbundles.com/endroid/EndroidPusherBundle)
 
@@ -58,7 +58,7 @@ endroid_pusher:
 ```php
 <?php
 
-$pusher = $container->get('endroid_pusher.server');
+$pusher = $container->get('endroid_pusher.pusher');
 $pusher->trigger('my_channel', 'my_event', array('message' => 'my_message'));
 ```
 

@@ -11,6 +11,6 @@ namespace Endroid\Bundle\PusherBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
-class PusherBundle extends Bundle
+class EndroidPusherBundle extends Bundle
 {
 }
