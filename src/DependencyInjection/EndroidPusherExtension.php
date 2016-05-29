@@ -17,7 +17,7 @@ use Symfony\Component\Config\FileLocator;
 class EndroidPusherExtension extends Extension
 {
     /**
-     * {@inherit}
+     * {@inherit}.
      */
     public function load(array $configs, ContainerBuilder $container)
     {
