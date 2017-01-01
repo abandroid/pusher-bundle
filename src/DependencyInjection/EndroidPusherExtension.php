@@ -28,6 +28,6 @@ class EndroidPusherExtension extends Extension
         $loader->load('services.yml');
 
         $serviceDefinition = $container->getDefinition('endroid_pusher.pusher');
-        $serviceDefinition->setArguments(array($config['key'], $config['secret'], $config['app_id'], array('encrypted' => true)));
+        $serviceDefinition->setArguments([$config['key'], $config['secret'], $config['app_id'], ['encrypted' => true]]);
     }
 }

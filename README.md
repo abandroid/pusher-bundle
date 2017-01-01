@@ -35,10 +35,10 @@ Then enable the bundle via the kernel.
 
 public function registerBundles()
 {
-    $bundles = array(
+    $bundles = [
         // ...
         new Endroid\Bundle\PusherBundle\EndroidPusherBundle(),
-    );
+    ];
 }
 ```
 
@@ -59,7 +59,7 @@ endroid_pusher:
 <?php
 
 $pusher = $container->get('endroid_pusher.pusher');
-$pusher->trigger('my_channel', 'my_event', array('message' => 'my_message'));
+$pusher->trigger('my_channel', 'my_event', ['message' => 'my_message']);
 ```
 
 The service returns the Pusher object as defined by the [`Pusher PHP Library`](https://github.com/pusher/pusher-http-php).
