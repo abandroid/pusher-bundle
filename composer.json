@@ -3,7 +3,7 @@
     "description": "Endroid Pusher Bundle for Symfony",
     "keywords": ["endroid", "pusher", "symfony", "bundle"],
     "homepage": "https://github.com/endroid/EndroidPusherBundle",
-    "type": "library",
+    "type": "symfony-bundle",
     "license": "MIT",
     "authors": [
         {
