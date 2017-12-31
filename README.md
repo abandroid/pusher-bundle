@@ -1,17 +1,16 @@
-Pusher Bundle
-==============
+# Pusher Bundle
 
 *By [endroid](https://endroid.nl/)*
 
 [![Latest Stable Version](http://img.shields.io/packagist/v/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
-[![Build Status](http://img.shields.io/travis/endroid/EndroidPusherBundle.svg)](http://travis-ci.org/endroid/EndroidPusherBundle)
+[![Build Status](http://img.shields.io/travis/endroid/pusher-bundle.svg)](http://travis-ci.org/endroid/pusher-bundle)
 [![Total Downloads](http://img.shields.io/packagist/dt/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
 [![Monthly Downloads](http://img.shields.io/packagist/dm/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
 [![License](http://img.shields.io/packagist/l/endroid/pusher-bundle.svg)](https://packagist.org/packages/endroid/pusher-bundle)
 
 This bundle enables easy integration of real-time features provided by [`Pusher`](https://pusher.com/).
 
-[![knpbundles.com](http://knpbundles.com/endroid/EndroidPusherBundle/badge-short)](http://knpbundles.com/endroid/EndroidPusherBundle)
+[![knpbundles.com](http://knpbundles.com/endroid/pusher-bundle/badge-short)](http://knpbundles.com/endroid/pusher-bundle)
 
 ## Requirements
 
