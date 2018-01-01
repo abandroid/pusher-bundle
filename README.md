@@ -36,7 +36,7 @@ public function registerBundles()
 {
     $bundles = [
         // ...
-        new Endroid\Bundle\PusherBundle\EndroidPusherBundle(),
+        new Endroid\PusherBundle\EndroidPusherBundle(),
     ];
 }
 ```

@@ -7,7 +7,7 @@
  * with this source code in the file LICENSE.
  */
 
-namespace Endroid\Bundle\PusherBundle;
+namespace Endroid\PusherBundle;
 
 use Symfony\Component\HttpKernel\Bundle\Bundle;
 
